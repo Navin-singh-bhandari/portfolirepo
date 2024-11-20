@@ -1,0 +1,74 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.pages{
+    margin-top: 20px;
+}
+.name{
+    padding-left: 10px;
+    margin-right: auto;
+}
+nav a{
+    text-decoration: none;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.Dp{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgb(247, 231, 233);
+    
+}
+.Dp img{
+    background: white;
+
+}
+p{
+    font-size: 1.5rem ;
+}
+.bottom{
+    background-color:rgb(247, 231, 233) ;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+.com{
+    
+   font-size: 17px;
+}
+
+.starting img{
+    background-color: rgb(247, 231, 233);
+}
+.middle img{
+    background-color: rgb(247, 231, 233);
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1.5px solid rgb(72, 3, 219);
+    border-radius: 5px;
+    
+}
+.ending img{
+    background-color: rgb(247, 231, 233);
+}
+.info{
+    display: flex;
+    justify-content:space-between;
+}
+
+a:hover {
+    color: rgb(238, 52, 52); /* Changes color on hover */
+    text-shadow: 0 0 5px rgb(44, 14, 242); /* Adds a glowing effect */
+    text-decoration: underline; /* Underlines the link on hover */
+    transition: color 0.4s ease, text-shadow 0.3s ease;
+}
+.ending img:hover , .middle img:hover, .starting img:hover, .pages img:hover{
+    transform: scale(1.4); /* Zooms in */
+    opacity: 0.8; /* Adds a slight transparency */
+}
